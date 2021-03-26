@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer</title>
+    </head>
+    <body>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<form method="post" action="insert.php">
+<h2>  HOTPOT MENU</h2>
+
+<table>
+  <tr>
+    <th>FOOD ITEM</th>
+        <th>TYPE</th>
+    <th>PRICE</th>
+  </tr>
+  <tr>
+    <td>TOMATO SOUP </td>
+    
+    <td>VEG</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>MIXED VEG CLEAR SOUP</td>
+    
+    <td>VEG</td>
+    <td>150</td>
+  </tr>
+  <tr>
+    <td>CHICKEN SWEET CORN SOUP</td>
+   
+    <td>NON VEG</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>SEAFOOD SOUP</td>
+    
+    <td>NONVEG</td>
+    <td>190</td>
+  </tr>
+  <tr>
+    <td>GOBI MANCHURIAN</td>
+    
+    <td>VEG</td>
+    <td>150</td>
+  </tr>
+  <tr>
+    <td>CHICKEN TIKKA</td>
+   
+    <td>NON VEG</td>
+    <td>160</td>
+  </tr>
+  <tr>
+    <td>ROTI</td>
+   
+    <td> VEG</td>
+    <td>140</td>
+  </tr>
+  <tr>
+    <td>NAAN</td>
+   
+    <td>VEG</td>
+    <td>160</td>
+  </tr>
+  <tr>
+    <td>VEG BRIYANI</td>
+  
+    <td>VEG</td>
+    <td>190</td>
+  </tr>
+  <tr>
+    <td>CHICKEN BRIYANI</td>
+   
+    <td>NON VEG</td>
+    <td>250</td>
+  </tr>
+</table>
+
+
+<br>
+</br>
+<h4>Enter your customer ID :<span style="padding-left: 7mm;"></span><input type="text" name="CID"></h4>
+<div class="myDiv">
+  <h3>Select items and quantity from the menu</h3>
+ 
+</div>
+
+<P>Item Name:<span style="padding-left: 7mm;"></span><input type="text" name="Item_Name"></P> 
+
+<p>Quantity: <input type="number" name="Quantity" class="input-responsive" value="0" required>  </p>
+
+<P>Price of the Item :<span style="padding-left: 7mm;"></span><input type="text" name="Price" class="input-responsive" value="100" required></P>
+
+
+<br>
+
+
+  <input type="submit" name="save" value="Confirm Order">
+  </form><br>
+  
+  <form method="post" action="Kaanum.php">
+    <input type="submit" name="save" value="Display Order Table">
+  </form>
+  
+  
+<br>
+  
+
+
+        
+    </body>
+</html>
+
+
+
+

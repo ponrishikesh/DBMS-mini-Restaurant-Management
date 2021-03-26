@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+    </head>
+    <body>
+        <form method="POST" action="CustomerDetail.php" >
+       <div class="hiii"> <div class="hi">
+        <P>CUSTOMER ID :<span style="padding-left: 40mm;"></span><input type="text" name="CID"></P>  
+        <P>FIRST NAME:<span style="padding-left: 40mm;"></span><input type="text" name="fname"></P>
+        <P>LAST NAME:<span style="padding-left: 40mm;"></span><input type="text" name="lname"></P>
+        
+        <P>E MAIL ID:<span style="padding-left: 43mm;"></span><input type="text" name="mailid"></P>
+        <P>DOOR NUMBER:<span style="padding-left: 29mm;"></span><input type="text" name="doorno"></P>
+        <P>STREET:<span style="padding-left: 47mm;"></span><input type="text" name="street"></P>
+        <P>AREA:<span style="padding-left: 49mm;"></span><input type="text" name="area"></P>
+        <P>LOCATION (optional):<span style="padding-left: 20mm;"></span><input type="text" name="loc"></P>
+        <p>PINCODE :<span style="padding-left: 20mm;"></span>
+            <select type="text" name="pin">
+                <option>625107</option>
+                <option>625016</option>
+                <option>625019</option>
+                <option>625020</option>
+                <option>625010</option>
+                
+            </select></p>
+        
+        <P> CONTACT NUMBER:<span style="padding-left: 20mm;"></span><input type="text" name="contno"></P>
+        <p>PAYMENT METHOD :<span style="padding-left: 20mm;"></span>
+            <select type="text" name="paym">
+                <option>COD</option>
+                <option>Net Banking</option>
+                <option>PAYTM</option>
+                <option>GPAY</option>
+                <option>Paypal</option>
+                <option>BHIM</option>
+            </select></p>
+
+        <p>PREMIUM CUSTOMER :<span style="padding-left: 20mm;"></span>
+            <select type="text" name="premcust">
+                <option>YES</option>
+                <option>NO</option>
+                
+            </select></p>
+        
+ 
+
+            <input type="submit" name="save" value="Confirm Order">
+        </div></div>
+        <br>
+    </form> 
+    <h3>For Deleting the Order</h3>
+    
+        <form method="post" action="deleteorder.php">
+            <P>CUSTOMER ID :<span style="padding-left: 40mm;"></span><input type="text" name="CID"></P>  
+            <input type="submit" name="save" value="Delete order">
+
+        </form>
+        <br>
+        <form method="post" action="new2.html">
+            <input type="submit" name="save" value="Back to MENU">
+
+        </form>
+
+        <br>
+        <form method="post" action="Kaanum.php">
+            <input type="submit" name="save" value="Show Cart">
+
+        </form>
+
+    </body> 
+</html>
+
+
+
+
